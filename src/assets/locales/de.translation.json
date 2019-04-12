@@ -1,0 +1,21 @@
+{
+  "general": {
+    "back": "zurück",
+    "cancel": "abbrechen",
+    "confirm": "Bist du sicher?",
+    "destroy": "Löschen",
+    "edit": "Bearbeiten",
+    "new": "Neu"
+  },
+  "hello": "Hallo Welt",
+  "layouts": {
+    "application": {
+      "about": "Über",
+      "account": "Konto",
+      "app_store": "App Store",
+      "imprint": "Impressum",
+      "logout": "Abmelden",
+      "my_mails": "Meine Mails"
+    }
+  }
+}

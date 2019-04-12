@@ -1,0 +1,8 @@
+<div>
+    <select formControlName="languages" (change)="changeLanguage($event.target.value)">
+        <option *ngFor="let lang of languages" [value]="lang" [selected]="language === lang">
+            <a *ngIf="language !== lang" href="javascript:void(0)" class="link lang-item {{lang}}">{{ '_languages.' + lang | i18nextCap }}</a>
+            <span *ngIf="language === lang" class="current lang-item {{lang}}">{{ '_languages.' + lang | i18nextCap }}</span>
+        </option>
+      </select>
+</div>
